@@ -1,5 +1,3 @@
-use tpch.sf1;
-
 SELECT
   l.orderkey,
   sum(l.extendedprice * (1 - l.discount)) AS revenue,
