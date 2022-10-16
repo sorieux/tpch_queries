@@ -28,9 +28,9 @@ WHERE
 		revenue
   )
 ORDER BY
-	s.suppkey
+	s.suppkey;
 	
-	
+-- Without view	
 WITH revenue AS (
 	SELECT
 			l.suppkey AS supplier_no,
